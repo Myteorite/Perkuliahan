@@ -9,4 +9,8 @@ x <- c(1,2,3,4,5,6,7)
 fit <- glm(y/n ~ x, family=binomial(link=logit), weights=n)
 summary(fit)
 
+#3.6
+Evo <- read.table("http://www.stat.ufl.edu/~aa/cat/data/Evolution.dat", header = TRUE)
+
+
 #3.7
